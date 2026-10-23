@@ -1,0 +1,846 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "2016 - The Party of Lincoln",
+            "summary": "<div style='overflow-y:scroll;height:200px;'><p><b>The 2016 election is so far best defined by the entirely unexpected.</b> A year ago, the vast majority of Americans had expected the Democrats and the Republicans to nominate candidates that matched well with this blase, liberal, center-right era of American politics. This was not what happened.<br><br>The ascendancy of Lincoln Chafee to the Democratic nomination was not foreseen by even the most prophetic of political prophets. The ugly duckling of the 2016 election cycle has gone from polling near political absolute zero to being a rising phoenix nominee in a matter of months. After an endorsement from a spiteful Biden out for revenge against his primary rival Hillary, Chafee would soak up enough of the moderate and dovish vote to narrowly eek out a win at the convention, filled with super delegates turned off by Clinton’s backroom tactics but uncomfortable with the left wing populism of Bernie Sanders.<br><br>This election season is also mired by a man somehow even more terrifying to establishment politics, the bloviating billionaire who's rallied the backwoods Republican vote, Donald Trump. Chafee, widely viewed as dry and doddering, is seen by the Democrats as the last bastion of hope against the oncoming wave of right-wing populism, and to say Americans dread going to the polls this year would be a grave, grave understatement.</p></div>",
+            "image_url": "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/election%20stuff/election.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/election%20stuff/advisorsPreBiden.png",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+RecReading = true;
+
+campaignTrail_temp.collect_results = true;
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2016: The Party of Lincoln"
+    }
+]
+
+campaignTrail_temp.modBoxTheme = {
+    "header_color": "#ffffff",
+    "header_text_color": "#000000",
+    "description_text_color": "#000000",
+    "description_background_color": "#8DAAC1",
+    "main_color": "#CCD7E0",
+    "secondary_color": "#41873F",
+    "ui_text_color": "#FFFFFF"
+}
+
+campaignTrail_temp.credits = "4N3URY5M and AlthoughEnjoyment"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 30,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 100,
+        "fields": {
+            "first_name": "Lincoln",
+            "last_name": "Chafee",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Rhode Island",
+            "priority": 1,
+            "description": "<div style='overflow-y:scroll;height:200px;'><p>Former Rhode Island Governor Lincoln Chafee is a political enigma. He himself was the son of a former governor, who was (like Lincoln) a long-time Republican. However, despite his extremely Republican name and elephantidae heritage, Chafee has been anything but loyal to his party. He first turned tail to being an independent, claiming the Republican party had left him behind. The independent registration would also go on to leave him behind, leading to his eventual pivot all the way to the Democratic party.<br><br>Though his opponent Donald Trump isn’t exactly an oratory genius, or a genius in any regard, Chafee now has to contend with a deficit in almost every aspect of the campaign, whether that be polling, fundraising, enthusiasm, or just straight-up charisma. Can this exceedingly homely water fowl rise into a beautiful swan, or will he vanish into the annals of history like all the turncoats that came before him?</p></div>",
+            "color_hex": "#545aa7",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/candidates/chafee.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 101,
+        "fields": {
+            "first_name": "Ron",
+            "last_name": "Wyden",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Oregon",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/candidates/wyden.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<div style=\"overflow-y:scroll;height:200px;\"><p>One of your biggest struggles in this election cycle is finding a solid base of enthusiasm among a beleaguered and disinterested America. However, there is a small yet growing crowd of your supporters interested in your more zany, unorthodox, libertarian positions. If doubling down on that is something important to you, Ron Wyden, the senior senator from Oregon, is the man for the job. He’s slightly more progressive than you, brings experience to the ticket, but more than that he has been a long time advocate for your own brand of dovish, socially liberal policies, having opposed both the invasion of Iraq and the Patriot Act, while speaking out for privacy rights. He’s also just, y’know… a bit more interesting than you.<br><br>However, these opinions also open him up to a lot of attacks, such as his passionate defense of assisted suicide and an odd vote to make English the official national language. That being said, he is otherwise an expected sort of pick for you, not expanding or shrinking your current coalition.</p></div>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 102,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Hickenlooper",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Colorado",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/candidates/hickenlooper.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<div style=\"overflow-y:scroll;height:200px;\"><p>Needless to say, you are not exactly the preferred choice of the Democratic establishment. The Clinton camp has little interest in drumming up enthusiasm for you, and if you can’t even get moderate Democrats excited, your advisors tell you that you’ll have little hope come the general. To this end, Clinton, now hiding away and stirring in rage in some dark corner of the convention center, has sent out some signals recommending you choose moderate Colorado governor John Hickenlooper. He comes with a lot of perks, being experienced, comfortable with some of your more lax social positions, and generally a solid choice for the party line. Clinton would see him as an olive branch, and likely help connect you with her many, many establishment contacts.<br><br>However, for what he may offer in delivering the moderate vote, Hickenlooper takes massively from any enthusiasm you could garner among dovish progressives. Additionally, he rivals even you in sheer lack of charisma, meaning he wouldn’t generate much excitement. Still, he’s otherwise a safe pick, and would likely help reinforce your current position.</p></div>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 103,
+        "fields": {
+            "first_name": "Tulsi",
+            "last_name": "Gabbard",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Hawaii",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/candidates/gabbard.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+			"no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<div style=\"overflow-y:scroll;height:200px;\"><p>Regardless of your broadly dovish and liberal record, you are not popular among the progressive left, who either haven’t heard of you, believe you have stolen Sander’s rightful place on the throne, or worse, both. That being said, you certainly have a lot in common with many of them, and if you’d like to tap into this base, Sanders himself has suggested to you an ally of his from the primaries, progressive Hawaiian congresswoman Tulsi Gabbard. Having left her position in the DNC to endorse Bernie, Gabbard has huge dovish bonafides and the military background to stand on them. She’s also considerably younger than you, and would be the first woman of color on a national ticket, likely driving some of the female and BIPOC voting enthusiasm your way.<br><br>Gabbard is still an… unconventional choice. She comes off to you as extremely ambitious, and there are a lot of odd rumors out there, from the more mundane connections in her youth to the Hare Krishna cult, to the wildly more concerning speculation on her friendship with the dictator of Syria Bashar Al-Assad. Still, if you are looking for a bold pick to expand your coalition and win some Bernie bro support, Gabbard may be the pick for you.</p></div>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 104,
+        "fields": {
+            "first_name": "Charlie",
+            "last_name": "Baker",
+            "election": 20,
+            "party": "Republican",
+            "state": "Massachusetts",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/candidates/baker.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<div style=\"overflow-y:scroll;height:200px;\"><p>Now, we have the true dice roll, Charlie Baker. Nobody but you wanted to vet him, and nobody but you wants him on the ticket, but he speaks to you. A moderate Republican governor of Massachusetts, broadly popular, and ready and willing to reach across the aisle to find common ground. He’s made clear he would be willing to switch his party affiliation all the way should you win as well. With Trump alienating much of the moderate Republican vote, Baker could be a way to pull parts of Romney and McCain’s erstwhile coalitions out from under the Donald, as well as driving up enthusiasm from the sheer irregularity of a cross-party ticket. You think you could frame it as a bipartisan stand against Trump’s hate.<br><br>Then again, the risks are clear and innumerable. You would be all but completely cutting ties with the progressive left, burning many bridges among establishment democrats, and it’s unclear if there even is that much of a moderate Republican vote left anyway. He’s also another white governor from your neck of the woods, and in that way you may not even need him on the ticket to get that sweet sweet centrist vote. But if you are confident in your appeal, he is certainly the forward choice you may be looking for.</p></div>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Republicans",
+            "election": 20,
+            "party": "Republican",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#dd2c50",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/candidates/trump.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 300,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Dissident Right",
+            "election": 20,
+            "party": "Various",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#e5c657",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/candidates/gary.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 400,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Dissident Left",
+            "election": 20,
+            "party": "Various",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#30a630",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/candidates/stein.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+	{
+		"model": "campaign_trail.running_mate",
+		"pk": 84815,
+		"fields": {
+			"candidate": 100,
+			"running_mate": 101
+		}
+	}
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            100,
+            200,
+            300,
+            400
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#003A69",
+    "windowColor": "#CCD7E0",
+    "containerColor": "#FFFFFF",
+    "innerWindowColor": "#F3F5F8",
+    "bannerImageUrl": "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/election%20stuff/banner.png",
+    "backgroundImageUrl": "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/election%20stuff/bacround.png",
+    "endingTextColor": "#000000",
+    "customQuote": "",
+    "gameTitle": "THE PARTY OF LINCOLN"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE PARTY OF LINCOLN</h2>\n            ';
+
+//#startcode
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#003a69";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ccd7e0";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#FFFFFF";
+
+document.getElementById("header").src = "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/election%20stuff/banner.png";
+
+document.body.background = "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/election%20stuff/bacround.png";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#f3f5f8!important;}</style>";
+
+document.head.innerHTML += `<link
+	rel="preconnect"
+	href="https://fonts.googleapis.com"
+>
+<link
+	rel="preconnect"
+	href="https://fonts.gstatic.com"
+	crossorigin
+>
+<link
+	href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+	rel="stylesheet"
+>`
+
+const styleElement = document.createElement('style');
+
+styleElement.innerHTML = `
+	body {
+		background-position: center;
+		display: flex !important;
+	}
+	#opponent_selection_id_back {
+    	display: none;
+	}
+`
+document.head.appendChild(styleElement);
+
+let containerRef = document.getElementsByClassName("container")[0];
+
+function createBanner(url, sibling, isLeft) {
+	let div = document.createElement("DIV");
+	let img = document.createElement("IMG");
+	div.style.position = "relative";
+	div.style.margin = "auto";
+	img.src = url;
+
+	div.appendChild(img);
+
+	if(isLeft) {
+		sibling.parentNode.insertBefore(div, sibling);
+	}
+	else {
+		sibling.parentNode.appendChild(div);
+	}
+	return img;
+}
+
+campaignTrail_temp.banner1 = createBanner("https://file.garden/aNxawo8jlVkymd8s/chafee%202016/ads/all%20the%20time/purge.png", containerRef, true);
+campaignTrail_temp.banner2 = createBanner("https://file.garden/aNxawo8jlVkymd8s/chafee%202016/ads/primary/chafeeBook.png", containerRef, false);
+
+class Song {
+	constructor(title, artist, album, coverLink, audioLink) {
+		this.title = title;
+		this.artist = artist;
+		this.album = album;
+		this.coverLink = coverLink;
+		this.audioLink = audioLink;
+	}
+	getTitle() {
+		return this.title;
+	}
+	getArtist() {
+		return this.artist;
+	}
+	getAlbum() {
+		return this.album;
+	}
+    getCoverLink() {
+		return this.coverLink;
+	}
+	getAudioLink() {
+		return this.audioLink;
+	}
+}
+class Playlist {
+	constructor() {
+		this.songs = [];
+		this.currentSongIndex = 0;
+	}
+	addSong(song) {
+		this.songs.push(song);
+	}
+	getCurrentSong() {
+		return this.songs[this.currentSongIndex];
+	}
+	playNext() {
+		this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+	playPrevious() {
+		this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+}
+
+window.Playlist=Playlist
+window.Song=Song
+
+function changePlaylist(newPlaylist) {
+	playlist = newPlaylist;
+	playlist.currentSongIndex = 0;
+	updateUI(playlist);
+	const audio = document.getElementById("audio");
+	audio.src = playlist.getCurrentSong().audioLink;
+	audio.play();
+}
+
+window.changePlaylist=changePlaylist
+
+function updateUI(playlist) {
+		const currentSong = playlist.getCurrentSong();
+		var player = document.getElementById("player");
+		player.querySelector("#cover").src = currentSong.getCoverLink();
+		player.querySelector("#title").textContent = currentSong.getTitle();
+		player.querySelector("#artist").textContent = currentSong.getArtist();
+		player.querySelector("#album").textContent = currentSong.getAlbum();
+}
+
+window.updateUI=updateUI
+
+function setupMusicPlayer() {
+	playlist = new Playlist(); 
+	const song1 = new Song(
+		"My Ordinary Life",
+		"The Living Tombstone",
+		"My Ordinary Life",
+		"https://file.garden/aNxawo8jlVkymd8s/chafee%202016/music/my_ordinary_life.png",
+		"https://audio.jukehost.co.uk/8PAB6FdSe9I79dDG7xMYe5R78AZZAi2D"
+	);
+	const song2 = new Song(
+		"Talk To Me",
+		"Run The Jewels",
+		"Run The Jewels 3",
+		"https://file.garden/aNxawo8jlVkymd8s/chafee%202016/music/run_the_jewels_3.png",
+		"https://audio.jukehost.co.uk/YZfMcuRFZYTENQI97JOScdu43QEWdWrX"
+	);
+	const song3 = new Song(
+		"Alright",
+		"Kendrick Lamar",
+		"To Pimp A Butterfly",
+		"https://file.garden/aNxawo8jlVkymd8s/chafee%202016/music/to_pimp_a_butterfly.png",
+		"https://audio.jukehost.co.uk/Orbcc5mwCkWqRpHX8qcqfB4wCPvkGyVZ"
+	);
+	const song4 = new Song(
+		"It Takes a Nation of Millenials to Destroy a Nation of Millions…",
+		"Machine Girl",
+		"…Because I'm Young Arrogant and Hate Everything You Stand For",
+		"https://file.garden/aNxawo8jlVkymd8s/chafee%202016/music/because_im_young.png",
+		"https://audio.jukehost.co.uk/wTcRc32xvVSlDqEikX4DUmMzvkCnsp1Q"
+	);
+	const song5 = new Song(
+		"Post American World",
+		"Megadeth",
+		"Dystopia",
+		"https://file.garden/aNxawo8jlVkymd8s/chafee%202016/music/dystopia.png",
+		"https://audio.jukehost.co.uk/dg9r7T1ALVWjVa3D3Sz0BrO7uMnKEiHR"
+	);
+	const song6 = new Song(
+		"Aftermath",
+		"Caravan Palace",
+		"<|°_°|>",
+		"https://file.garden/aNxawo8jlVkymd8s/chafee%202016/music/robot_face.png",
+		"https://audio.jukehost.co.uk/cFnP5exrBhQBk0bgg34mOkVImPYRMgvt"
+	);
+	const song7 = new Song(
+		"I Might Vote 4 Donald Trump",
+		"JPEGMAFIA, FREAKYMAFIACULT",
+		"I Might Vote 4 Donald Trump",
+		"https://file.garden/aNxawo8jlVkymd8s/chafee%202016/music/i_might_vote_4_trump.png",
+		"https://audio.jukehost.co.uk/eY5YRBlUukBFdSklXdmZo0sDJnchA3VU"
+	);
+	
+	playlist.addSong(song1);
+	playlist.addSong(song2);
+	playlist.addSong(song3);
+	playlist.addSong(song4);
+	playlist.addSong(song5);
+	playlist.addSong(song6);
+	playlist.addSong(song7);
+	
+	const playerContainer = document.createElement("div");
+	playerContainer.id = "player";
+	
+	const displayBox = document.createElement("div");
+	displayBox.id = "display-box";
+	
+	const coverElement = document.createElement("img");
+	coverElement.id = "cover";
+	displayBox.appendChild(coverElement);
+	
+	const infoContainer = document.createElement("div");
+	infoContainer.id = "info-container";
+	infoContainer.style.backgroundImage = "url('')";
+	infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
+	infoContainer.style.color = "black"; // Set text color to black
+	
+	const songInfo = document.createElement("div");
+	songInfo.id = "song-info";
+	
+	const titleElement = document.createElement("p");
+	titleElement.id = "title";
+	titleElement.style.fontFamily = 'Roboto';
+	titleElement.style.fontWeight = 500;
+	titleElement.style.fontSize = '14px';
+	titleElement.style.color = "#636363";
+	songInfo.appendChild(titleElement);
+	
+	const artistElement = document.createElement("p");
+	artistElement.id = "artist";
+	artistElement.style.fontFamily = 'Roboto';
+	artistElement.style.fontWeight = 400;
+	artistElement.style.fontSize = '14px';
+	artistElement.style.color = "#636363";
+	songInfo.appendChild(artistElement);
+
+	const albumElement = document.createElement("p");
+	albumElement.id = "album";
+	albumElement.style.fontFamily = 'Roboto';
+	albumElement.style.fontWeight = 400;
+	albumElement.style.fontSize = '14px';
+	albumElement.style.color = "#636363";
+	songInfo.appendChild(albumElement);	
+	
+	infoContainer.appendChild(songInfo);
+	displayBox.appendChild(infoContainer);
+	
+	playerContainer.appendChild(displayBox);
+	
+	const controlsContainer = document.createElement("div");
+	controlsContainer.id = "controls-container";  
+	
+	const progressBarContainer = document.createElement("div");
+	progressBarContainer.id = "progress-bar-container";
+	progressBarContainer.style.marginBottom = "2.5%";
+	
+	const progressBar = document.createElement("progress");
+	progressBar.type = "range";
+	progressBar.id = "progress-bar";
+	progressBar.value = "0";
+	progressBar.max = "100";
+	
+	progressBarContainer.appendChild(progressBar);
+	controlsContainer.appendChild(progressBarContainer);
+	
+	const controls = document.createElement("div");
+	controls.id = "controls";
+	controls.style.marginBottom = "2.5%";
+	
+	const prevButton = document.createElement("img");
+	prevButton.id = "prevButton";
+	prevButton.src = "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/music%20player/go%20back.png";
+	prevButton.alt = "Previous";
+	prevButton.style.height = "43px";
+	prevButton.style.padding = "5px";
+	prevButton.style.cursor = "pointer";
+	controls.appendChild(prevButton);  
+	
+	const playPauseButton = document.createElement("img");
+	playPauseButton.id = "playPauseButton";
+	playPauseButton.src = "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/music%20player/pause.png"; // Set the default play image
+	playPauseButton.alt = "Play/Pause";
+	playPauseButton.style.height = "43px";
+	playPauseButton.style.padding = "5px";
+	playPauseButton.style.cursor = "pointer";
+	controls.appendChild(playPauseButton);	
+	
+	const nextButton = document.createElement("img");
+	nextButton.id = "nextButton";
+	nextButton.src = "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/music%20player/skip.png";
+	nextButton.alt = "Next";
+	nextButton.style.height = "43px";
+	nextButton.style.padding = "5px";
+	nextButton.style.cursor = "pointer";
+	controls.appendChild(nextButton);
+	
+	controlsContainer.appendChild(controls);
+	
+	playPauseButton.addEventListener("click", function () {
+		const audio = document.getElementById("audio");
+		if (audio.paused) {
+			audio.play();
+			playPauseButton.src = "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/music%20player/pause.png"; // Set the pause image
+		} else {
+			audio.pause();
+			playPauseButton.src = "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/music%20player/play.png"; // Set the play image
+		}
+	});
+	nextButton.addEventListener("click", function () {
+		playlist.playNext();
+		updateUI(playlist);
+		const audio = document.getElementById("audio");
+		audio.src = playlist.getCurrentSong().audioLink;
+		audio.play();
+	});
+	prevButton.addEventListener("click", function () {
+		playlist.playPrevious();
+		updateUI(playlist);
+		const audio = document.getElementById("audio");
+		audio.src = playlist.getCurrentSong().audioLink;
+		audio.play();
+	});
+	
+	const volumeContainer = document.createElement("div");
+	volumeContainer.id = "volumeContainer";
+	
+    volumeIconElement1 = document.createElement("img");
+	volumeIconElement1.id = "volumeIcon1";
+	volumeIconElement1.alt = "Volume";
+	volumeIconElement1.src = "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/music%20player/volDown.png";
+	volumeIconElement1.style.height = "19px";
+	volumeIconElement1.style.padding = "2px";
+	volumeContainer.appendChild(volumeIconElement1);
+	
+	volumeSlider = document.createElement("input");
+	volumeSlider.type = "range";
+	volumeSlider.id = "volumeSlider";
+	volumeSlider.min = 0;
+	volumeSlider.max = 9;
+	volumeSlider.step = 0.1;
+	volumeSlider.value = 1;
+	volumeSlider.style.cursor = "pointer";
+	volumeContainer.appendChild(volumeSlider);
+	
+	volumeIconElement2 = document.createElement("img");
+	volumeIconElement2.id = "volumeIcon2";
+	volumeIconElement2.alt = "Volume";
+	volumeIconElement2.src = "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/music%20player/volUp.png";
+	volumeIconElement2.style.height = "19px";
+	volumeIconElement2.style.padding = "2px";
+	volumeContainer.appendChild(volumeIconElement2);
+	
+	const volumeDisplay = document.createElement("span");
+	volumeDisplay.id = "volume-display";
+	volumeDisplay.style.fontWeight = 'bold'; 
+	volumeDisplay.style.display = 'none';
+	volumeDisplay.textContent = "1";
+	
+	volumeContainer.appendChild(volumeDisplay);
+	
+	controlsContainer.appendChild(volumeContainer);
+	
+	playerContainer.appendChild(controlsContainer);
+	
+	gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+	
+	function updateProgressBar() {
+		const audio = document.getElementById("audio");
+		const progress = (audio.currentTime / audio.duration) * 100;
+		try{progressBar.value = progress}
+		catch{}
+	}
+	progressBar.addEventListener("input", function () {
+		const audio = document.getElementById("audio");
+		const seekTime = (progressBar.value / 100) * audio.duration;
+		audio.currentTime = seekTime;
+	});
+	
+	const audio = document.createElement("audio");
+	audio.id = "audio";
+	audio.src = playlist.getCurrentSong().audioLink;
+	audio.volume = 1/9;
+	
+	audio.addEventListener("timeupdate", updateProgressBar);
+	audio.addEventListener("ended", function () {
+		// Play the next song when the current song ends
+		playlist.playNext();
+		updateUI(playlist);
+		audio.src = playlist.getCurrentSong().audioLink;
+		audio.play();
+	});
+	let currentVolume = 1; // Initial volume
+	volumeSlider.addEventListener("input", function () {
+		currentVolume = parseInt(volumeSlider.value, 10);
+		updateVolumeDisplay();
+		updateAudioVolume();
+	});
+	function updateVolumeDisplay() {
+		volumeDisplay.textContent = currentVolume;
+	}
+	function updateAudioVolume() {
+		const audio = document.getElementById("audio");
+		audio.volume = currentVolume / 9; // Set volume between 0 and 1
+	}
+	document.body.appendChild(audio);
+	audio.play();
+	// Update the UI when the page loads
+	updateUI(playlist);
+}
+
+const style = document.createElement("style");
+style.textContent = `
+	.game_header h2 {
+		font-family: Montserrat;
+		font-weight: 700;
+		font-style: normal;
+	}
+	.content_single p {
+		margin-bottom: 0.4em;
+	}
+	.campaign_trail_start_emphasis {
+		background-color: #41873F;
+	}
+	.overlay_window {
+		height: auto;
+	}
+	#player {
+		border: 0px solid #000000; /* Add your desired border style */
+		display: flex;
+		flex-direction: row;
+		width: 976px;
+		height: 191px;
+		background-Image: url("https://file.garden/aNxawo8jlVkymd8s/chafee%202016/music%20player/background.png");
+	}
+	#display-box {
+		display: flex;
+		align-items: center;
+		width: 50%;
+	}
+	#cover {
+		width: 176px;
+		height: 176px;
+		margin-left: 8px;
+	}
+	#info-container {
+		display: flex;
+		flex-direction: row;
+		height: 178px;
+		width: 210px;
+		margin-top: 3px;
+	}
+	#song-info {
+		width: 100%;
+		padding:5px;
+	}
+	#controls-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 10px;
+		width: 100%;
+		padding-top:15px;
+	}
+	#controls {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 80%;
+	}
+	#progress-bar-container {
+		width: 100%;
+	}
+	#progress-bar {
+		width: 80%;
+		margin: auto;
+		display: flex;
+		margin-Top: 10px;
+		accent-color: #636363;
+	}
+	#volumeSlider {
+		accent-color: #636363;
+	}
+`;
+
+document.head.appendChild(style);
+const gameWindow_player = document.getElementById("game_window");
+setupMusicPlayer();
+
+let z = new MutationObserver((mutationsList, observer) => {
+    let runningMateSummary = document.querySelector("#running_mate_summary");
+    if (runningMateSummary) {
+        $("#running_mate_id_button").click();
+        observer.disconnect()
+    }
+});
+z.observe(document, { subtree: true, childList: true });
+
+campaignTrail_temp.achievements = {
+	"Chafee '08" : {
+		"image" : "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/achievements/chafee%20'08.png",
+		"description" : "Win with two familiar faces running against you.",
+		"cannotBeCheated" : true
+	},
+	"Faithless" : {
+		"image" : "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/achievements/faithless.png",
+		"description" : "See democracy subverted.",
+		"cannotBeCheated" : true
+	},
+	"Putinversteher" : {
+		"image" : "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/achievements/putin.png",
+		"description" : "Embrace your true masters.",
+		"cannotBeCheated" : true
+	},
+	"Meet the New Boss" : {
+		"image" : "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/achievements/new%20boss.png",
+		"description" : "Cause a total shake-up",
+		"cannotBeCheated" : true
+	},
+	"No Hands" : {
+		"image" : "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/achievements/no%20hands.png",
+		"description" : "Bolster an unlikely campaign.",
+		"cannotBeCheated" : true
+	},
+	"Evan McGuffin" : {
+		"image" : "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/achievements/mcguffin.png",
+		"description" : "Be saved by divine intervention.",
+		"cannotBeCheated" : true
+	},
+	"Return to Normalcy" : {
+		"image" : "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/achievements/normalcy.png",
+		"description" : "Win with a vague, uninteresting platform.",
+		"cannotBeCheated" : true
+	},
+	"Guns and Butter" : {
+		"image" : "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/achievements/guns%20and%20butter.png",
+		"description" : "Make Scoop Jackson proud.",
+		"cannotBeCheated" : true
+	},
+	"Madness, Murder, and Money" : {
+		"image" : "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/achievements/money.png",
+		"description" : "Win as an extremely hawkish, crazy libertarian.",
+		"cannotBeCheated" : true
+	},
+	"I of Providence" : {
+		"image" : "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/achievements/province.png",
+		"description" : "Win as a dovish, weird libertarian.",
+		"cannotBeCheated" : true
+	},
+	"Bully for You!" : {
+		"image" : "https://file.garden/aNxawo8jlVkymd8s/chafee%202016/achievements/bully.png",
+		"description" : "Win as a progressive with Charlie Baker as your running mate.",
+		"cannotBeCheated" : true
+	},
+}
+			
+//#endcode
